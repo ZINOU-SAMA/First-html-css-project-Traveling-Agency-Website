@@ -1,6 +1,6 @@
 # First-html-css-project-Traveling-Agency-Website
 
-Welcome to the **First-html-css-project-Traveling-Agency-Website** repository! This project is a fully responsive website for a fictional traveling agency named **Safir**. The website showcases different travel destinations, provides information about the agency, and includes contact details for customer inquiries.
+Welcome to the **First-html-css-project-Traveling-Agency-Website** repository! This project is a website for a fictional traveling agency named **Safir**. The website showcases different travel destinations, provides information about the agency, and includes contact details for customer inquiries.
 
 ## Table of Contents
 - [Introduction](#introduction)

@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+li a {
+    color: white;
+    font-size: small;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#first {
+    padding-top: 10px;
+    display: flex;
+}
+
+#main-title{
+    display: inline-block;
+    padding-right: 72%;
+    margin-left: 5%;
+    font-size: 25px;
+    font-weight: 500;
+    padding-top: 5px;
+
+}
+
+header {
+    background-image: url(pexels-ollivves-1078983.jpg);
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#front {
+    text-align: center;
+    padding: 25%;
+}
+
+#front h1 {
+    font-size: 120px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+#front a {
+    color: white;
+    margin-top: 24px;
+    padding: 5px 15px;
+    border: 1px white solid;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+#explore > h1 {
+    font-size: 100px;
+    color: white;
+    padding-bottom: 50px;
+}
+
+#explore {
+    background-color: #F2E8C9;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#bali {
+    width: 500px;
+    height: 800px;
+    border: 1px white solid;
+    border-radius: 25px;
+    margin: auto;
+    background-image: url(Luxury\ Beach\ Resort\ in\ Bali\ _\ AYANA\ Resort\ Bali.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#bali > h2 {
+    text-align: left;
+    padding-top: 500px;
+    padding-left: 50px;
+    color: white;
+    font-size: 80px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+#bali > p {
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 20px;
+    line-height: 25px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+#zanzibar {
+    width: 500px;
+    height: 800px;
+    border: 1px white solid;
+    border-radius: 25px;
+    margin: auto;
+    background-image: url(Honeymoon\ in\ Zanzibar\ Guide_\ Best\ Zanzibar\ Honeymoon\ Resorts\ and\ More!.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#zanzibar > h2 {
+    text-align: left;
+    padding-top: 500px;
+    padding-left: 50px;
+    color: white;
+    font-size: 80px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+#zanzibar > p {
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 20px;
+    line-height: 25px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+#seychelles {
+    width: 500px;
+    height: 800px;
+    border: 1px white solid;
+    border-radius: 25px;
+    margin: auto;
+    background-image: url(North\ Island\ _\ Luxury\ Hotel\ in\ Seychelles.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#seychelles > h2 {
+    text-align: left;
+    padding-top: 500px;
+    padding-left: 50px;
+    color: white;
+    font-size: 80px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+#seychelles > p {
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 20px;
+    line-height: 25px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+#des {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+button {
+    background-color: #003366; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 40px;
+  }
+
+button:hover { 
+    background-color: #1f2b35;
+}
+
+#about {
+    background-color: #F2E8C9;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#about > h1 {
+    font-size: 100px;
+    color: white;
+    padding-bottom: 50px;
+}
+
+#ab {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 500px;
+    height: 320px;
+    border: 1px white solid;
+    border-radius: 25px;
+    margin: auto;
+}
+
+.card > h2 {
+    padding: 30px;
+    font-size: 30px;
+    color: #003366;
+}
+
+.card > p {
+    text-align: justify;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #003366;
+}
+
+#contact {
+    background-color: #F2E8C9;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#contact > h1 {
+    font-size: 100px;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.c-cards {
+    width: 1000px;
+    height: 250px;
+    border: 1px white solid;
+    border-radius: 25px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.c-cards > h2 {
+    padding: 30px;
+    font-size: 30px;
+    color: #003366;
+}
+
+.c-cards > p {
+    text-align: justify;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 150px;
+    color: #003366;
+}
+
+#socials > p {
+    padding-left: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#socials > p > i{
+    font-size: 100px;
+}
+
+footer {
+    height: 200px;
+    background-color: #003366;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    display: block;
+    padding-top: 100px;
+}

@@ -6,7 +6,6 @@ Welcome to the **First-html-css-project-Traveling-Agency-Website** repository! T
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
 
 ## Introduction
 This project is a basic HTML and CSS-based website for a traveling agency called **Safir**. The site includes a hero section, destination showcases, information about the agency, and a contact section. The design aims to be both visually appealing and user-friendly.
